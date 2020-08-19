@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            background-image: url("https://i.ytimg.com/vi/9WOEbPVXVZ4/maxresdefault.jpg");
+            background-size: cover;
+        }
+        .texto {
+            position: absolute;
+            top: 10%;
+            width: 100%;
+            display: block;
+
+        }
+        .frase p {
+            text-align: center;
+            font-size: 30px;
+        }
+        .autor {
+            position: relative;
+            top: 15px;
+            display: block;
+            text-align: center;
+
+        }
+        .boton button {
+            position: absolute;
+            left: 42%;
+            top: 80%;
+            display: inline-block;
+            padding: 10px 50px;
+            font-size: 20px;
+        }
+
+    </style>
+    <title>Frases Simpsonianas</title>
+</head>
+<body>
+    <div class="texto">
+        <div class="frase">
+            <p><b>
+                <%= frase %>
+            </b></p>
+        </div>
+        <div class="autor">
+            <p><b>
+                <%= autor %>
+            </b></p>
+        </div>
+    </div>
+    <div class="boton">
+        <button>Nueva frase</button>
+    </div>
+</body>
+</html>
