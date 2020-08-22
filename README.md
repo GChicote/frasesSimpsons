@@ -11,6 +11,7 @@ Las frases están guardadas en una base de datos, junto con el personaje que la 
 El proyecto se creó con:
 * Nodejs
 * Express
+* EJS
 * MongoDB
 
 ## Setup
