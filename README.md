@@ -23,5 +23,4 @@ $ npm install
 $ npm start
 ```
 ## Demo
-Se puede ver en el siguiente link:
-https://maze-cream-noodle.glitch.me/
+Podés ver la app [acá](https://maze-cream-noodle.glitch.me/)
